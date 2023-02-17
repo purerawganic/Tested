@@ -1,0 +1,119 @@
+body {
+  background-color: plum;
+  color: ;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* a:visited {
+  color: purple;
+} */
+
+.info {
+  background: pink;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+.textinfo {
+  margin-left: 20px;
+}
+
+.textinfo h2 {
+  margin-left: 10px;
+}
+
+@media (max-width){
+  .imfo {
+    text-align: center;
+    display: block;
+  }
+}
+
+.link:hover {
+  color: #115c5c;
+  text-decoration: underline;
+  text-decoration-color: #115c5c;
+  cursor: pointer;
+}
+
+#i {
+  border-radius: 50px;
+}
+
+.socseti {
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+.vse {
+  max-width: 70%;
+  margin: auto;
+}
+
+.svaz h2 {
+  text-align: center;
+}
+
+.groupf input,
+.groupf textarea {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  /* background: transparent; */
+  border-bottom: 1px solid purple;
+  color: black;
+  padding: 15px 15px;
+  outline: none;
+  font-family: monospace;
+}
+
+.btn {
+  margin-top: 10px;
+  background: aqua;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.card {
+  width: 50%;
+  background: pink;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .groupf {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .groupf:last-child {
+  margin-right: 0;
+}
